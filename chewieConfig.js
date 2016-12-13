@@ -10,7 +10,7 @@ const config = {
 
   registry: {
     location: process.env.REGISTRY_LOCATION || 'remote',
-    path: process.env.REGISTRY_PATH || 'https://github.com/your_github_username/apidoc-workshop-docu_registry.git',
+    path: process.env.REGISTRY_PATH || 'https://github.com/NicolasPhilippe/apidoc-workshop-docu_registry.git',
     fileName: 'docu_registry.json',
     branch: process.env.docuBranch || 'master',
     shortVersionFileName: 'shrinkedRegistry.json',

@@ -4,7 +4,7 @@ const config = {
   skeletonDestination: './src',
   skeletonOutDestination: './out',
   placeholdersLocation: './src/raw/placeholders',
-  docuUrl: process.env.docuURL || 'http://NicolasPhilippe.github.io',
+  docuUrl: process.env.docuURL || 'https://NicolasPhilippe.github.io',
   notClonedRepositoriesFile: 'notClonedRepositories.json',
   indepenedentDocuRepositoriesFile: 'indepenedentDocuRepositories.json',
 
@@ -30,7 +30,7 @@ const config = {
   },
 
   generationResult: {
-    srcLocation: 'https://github.com/NicolasPhilippe/NicolasPhilippe.github.io,
+    srcLocation: 'https://github.com/NicolasPhilippe/NicolasPhilippe.github.io',
     branch: process.env.docuBranch || 'master',
     cloneLocation: 'latestResultRepo'
   },

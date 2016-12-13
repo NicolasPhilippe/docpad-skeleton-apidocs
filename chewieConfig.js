@@ -30,7 +30,7 @@ const config = {
   },
 
   generationResult: {
-    srcLocation: 'https://github.com/NicolasPhilippe/NicolasPhilippe.github.io',
+    srcLocation: 'https://github.com/NicolasPhilippe/NicolasPhilippe.github.io.git',
     branch: process.env.docuBranch || 'master',
     cloneLocation: 'latestResultRepo'
   },
